@@ -80,6 +80,7 @@
 				<article id="main">
 
 					<header class="special container">
+						{{ content }}
 						<span class="icon fa-bar-chart-o"></span>
 						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
 						<br />
@@ -126,39 +127,17 @@
 					<!-- Two -->
 						<section class="wrapper style1 container special">
 							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>This is Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Also Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Probably Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
+								{% for section in page.row_sections %}
+								  <div class="4u 12u(narrower)">
+                                     <section>
+										  <span class="icon featured fa-check"></span>
+										  <header>
+											  <h3>{{section.title | unindent | markdownify }}</h3>
+										  </header>
+									     <p>{{ section.description | unindent | markdownify}}</p>
+									  </section>
+								  </div>
+								{% endfor %}
 							</div>
 						</section>
 

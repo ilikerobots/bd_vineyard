@@ -1,6 +1,14 @@
 ---
 title: My page
 layout: default
+row_sections:
+  - title: This is the first title.
+    description: This is the first section.
+  - title: This is the second title.
+    description: This is the **second** section.
+  - title: Foo bat
+    description: |
+      This is a long section with multiple paragraphs.
 ---
 
 # {{ page.title }}
