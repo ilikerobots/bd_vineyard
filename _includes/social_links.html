@@ -1,0 +1,5 @@
+<ul class="icons">
+  {% for link in site.data.social.links %}
+  <li><a href="{{ link.link }}" class="icon circle {{ link.icon }}"><span class="label">{{ link.name }}</span></a></li>
+  {% endfor %}
+</ul>

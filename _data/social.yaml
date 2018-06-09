@@ -1,0 +1,13 @@
+links:
+- icon: fa-twitter
+  link: https://twitter.com/ilikerobotz
+  name: Twitter
+- icon: fa-linkedin
+  link: http://www.linkedin.com/in/mike-hoolehan
+  name: Facebok
+- icon: fa-medium
+  link: https://medium.com/@ilikerobots
+  name: Medium
+- icon: fa-github
+  link: https://github.com/ilikerobots/
+  name: GitHub
