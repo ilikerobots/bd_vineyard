@@ -1801,6 +1801,10 @@
 				width: 100%;
 			}
 
+        .featured img {
+			display: block;
+			width: 100%;
+		}
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;

@@ -24,7 +24,7 @@
     <!--<h1 id="logo"><a href="original_index.html">Twenty <span>by HTML5 UP</span></a></h1>-->
     <nav id="nav">
       <ul>
-        <li class="current"><a href="original_index.html">Welcome</a></li>
+        <li class="current"><a href="index.html">Welcome</a></li>
         <li class="submenu">
           <a href="#">Layouts</a>
           <ul>
@@ -125,9 +125,9 @@
           <section>
             <span class="icon featured {{ section.icon }}"></span>
             <header>
-              <h3>{{section.title | unindent | markdownify }}</h3>
+              <h3>{{section.title | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
             </header>
-            <p>{{ section.description | unindent | markdownify}}</p>
+            {{ section.description | unindent | markdownify}}
           </section>
         </div>
         {% endfor %}
@@ -148,9 +148,9 @@
           <section>
             <a href="#" class="image featured"><img src="/images/{{ section.img }}" alt=""/></a>
             <header>
-              <h3>{{section.title | unindent | markdownify }}</h3>
+              <h3>{{section.title | unindent | markdownify  | remove: '<p>' | remove: '</p>' }}</h3>
             </header>
-            <p>{{ section.description | unindent | markdownify}}</p>
+            {{ section.description | unindent | markdownify}}
           </section>
 
         </div>
