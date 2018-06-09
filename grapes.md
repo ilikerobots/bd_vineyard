@@ -1,5 +1,5 @@
 ---
-title: Black Dog Vineyard - Self pick wine grapes in Terre Haute, Indiana
+title: About our grapes - Black Dog Vineyard 
 layout: left-sidebar
 header: About our **grapes**
 description: We have two grape varieties...  Both are perfect for wine.
@@ -7,10 +7,12 @@ sidebar_sections:
   - title: This is the first title.
     description: This is the first section.
     cta: Tell me more
+    link: contact.html
   - title: This is the second title.
     description: This is the **second** section.
     img: dog_01.jpg
     cta: Get started
+    link: contact.html
   - title: Foo bat
     description: |
       This is a long section with multiple paragraphs.
@@ -18,17 +20,21 @@ sidebar_sections:
       This is a long section with multiple paragraphs.
     img: dog_01.jpg
     cta: I'm ready
+    link: contact.html
 row_sections:
   - title: Pick grapes.
     description: This is the first section.
     cta: Go for it
+    link: contact.html
   - title: Drink wine.
     description: This is the **second** section.
     cta: Get started
+    link: contact.html
   - title: Have fun.
     description: |
       This is a long section with multiple paragraphs.
     cta: All set
+    link: contact.html
 ---
 
 ![My helpful screenshot]({{ "/images/dog_01.jpg" | absolute_url }})

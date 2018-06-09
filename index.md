@@ -37,7 +37,7 @@ grid_sections:
     description: |
       This is a long section with multiple paragraphs.
     img: dog_01.jpg
-maincta_header: Ready to *pick grapes*?
+maincta_header: Ready to **pick grapes**?
 maincta_text: We're waiting for *you*! Plan your experience today.
 maincta_btn_primary: Plan my visit
 maincta_btn_secondary: Contact us
