@@ -1,130 +1,80 @@
-<!DOCTYPE HTML>
-<!--
-	Based on Twenty by HTML5 UP html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-<head>
-  <title>{{ page.title }}</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <!--[if lte IE 8]>
-  <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="stylesheet" href="assets/css/main.css"/>
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->        <!--[if lte IE 9]>
-  <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
-</head>
-<body class="left-sidebar">
-<div id="page-wrapper">
+---
+layout: shell
+---
 
-  <!-- Header -->
-  <header id="header">
-    <h1 id="logo"><a href="index.html">Black Dog <span>Vineyard</span></a></h1>
-    {% include nav.html %}
+<!-- Main -->
+<article id="main">
+
+  <header class="special container">
+    <span class="icon {{ page.icon }}"></span>
+    <h2>{{ page.header | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+    {{ page.description | unindent | markdownify  }}
   </header>
 
-  <!-- Main -->
-  <article id="main">
+  <!-- One -->
+  <section class="wrapper style4 container">
 
-    <header class="special container">
-      <span class="icon fa-laptop"></span>
-      <h2>{{ page.header | unindent | markdownify  | remove: '<p>' | remove: '</p>' }}</h2>
-      <p>{{ page.description }}</p>
-    </header>
+    <div class="row 150%">
+      <div class="4u 12u(narrower)">
 
-    <!-- One -->
-    <section class="wrapper style4 container">
+        <!-- Sidebar -->
+        <div class="sidebar">
 
-      <div class="row 150%">
-        <div class="4u 12u(narrower)">
-
-          <!-- Sidebar -->
-          <div class="sidebar">
-
-            {% for section in page.sidebar_sections %}
-             <section>
-              {% if section.img %}
-                <a href="#" class="image featured"><img src="images/pic03.jpg" alt=""/></a>
-              {% endif %}
-              <header>
-                <h3>{{ section.title | unindent | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
-              </header>
-              {{ section.description | unindent | markdownify}}
-              <footer>
-                <ul class="buttons">
-                  <li><a href="{{ section.link }}" class="button small">{{ section.cta }}</a></li>
-                </ul>
-              </footer>
-            </section>
-            {% endfor %}
-
-          </div>
-
-        </div>
-        <div class="8u 12u(narrower) important(narrower)">
-
-          <!-- Content -->
-          <div class="content featured">
-            <section>
-              {{ content }}
-            </section>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Two -->
-    <section class="wrapper style1 container special">
-      <div class="row">
-
-          {% for section in page.row_sections %}
-          <div class="4u 12u(narrower)">
-           <section>
+          {% for section in page.sidebar_sections %}
+          <section>
+            {% if section.img %} <a href="#" class="image featured"><img src="images/{{section.img}}" alt=""/></a> {% endif %}
             <header>
-              <h3>{{section.title | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+              <h3>{{ section.title | unindent | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
             </header>
             {{ section.description | unindent | markdownify}}
-            {% if section.cta %}
             <footer>
               <ul class="buttons">
                 <li><a href="{{ section.link }}" class="button small">{{ section.cta }}</a></li>
               </ul>
             </footer>
-             {% endif %}
           </section>
-          </div>
           {% endfor %}
 
+        </div>
+
       </div>
-    </section>
+      <div class="8u 12u(narrower) important(narrower)">
 
-  </article>
+        <!-- Content -->
+        <div class="content">
+          <section>
+            {{ content }}
+          </section>
+        </div>
 
-  <!-- Footer -->
-  <footer id="footer">
+      </div>
+    </div>
+  </section>
 
-    {% include social_links.html %}
+  <!-- Two -->
+  <section class="wrapper style1 container special">
+    <div class="row">
 
-    <ul class="copyright">
-      <li>&copy; 2018 BlackDog Vineyard</li>
-      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
-  </footer>
+      {% for section in page.row_sections %}
+      <div class="4u 12u(narrower)">
+        <section>
+          <header>
+            <h3>{{section.title | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+          </header>
+          {{ section.description | unindent | markdownify}} {% if section.cta %}
+          <footer>
+            <ul class="buttons">
+              <li><a href="{{ section.link }}" class="button small">{{ section.cta }}</a></li>
+            </ul>
+          </footer>
+          {% endif %}
+        </section>
+      </div>
+      {% endfor %}
 
-</div>
+    </div>
+  </section>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollgress.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+</article>
 
-</body>
-</html>
+

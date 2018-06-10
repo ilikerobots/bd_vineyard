@@ -947,6 +947,20 @@
 		}
 	}
 
+	.blog-posts {
+		li  {
+		    a {
+			    font-size: 150%;
+			    text-transform: uppercase;
+		    }
+			.postDate {
+				font-size: 120%;
+				margin-left: .5em;
+				font-variant: all-petite-caps;
+			}
+		}
+	}
+
 /* Wide */
 
 	@include breakpoint(wide) {

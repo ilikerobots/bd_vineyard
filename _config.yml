@@ -1,1 +1,5 @@
 name: Black Dog Vineyard
+#url: http://mysite.com
+#baseurl: /blog
+permalink: :year-:month-:day-:title:output_ext
+

@@ -1891,6 +1891,14 @@ body.index #main {
         padding: 0;
         border: 0; }
 
+.blog-posts li a {
+  font-size: 150%;
+  text-transform: uppercase; }
+.blog-posts li .postDate {
+  font-size: 120%;
+  margin-left: .5em;
+  font-variant: all-petite-caps; }
+
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */

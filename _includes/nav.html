@@ -1,25 +1,25 @@
 <nav id="nav">
   <ul>
-    <li class="current"><a href="index.html">Welcome</a></li>
+    <li class="current"><a href="{{ '/index.html' | absolute_url }}">Welcome</a></li>
     <li class="submenu">
       <a href="#">More</a>
       <ul>
-        <li><a href="grapes.html">About our Grapes</a></li>
-        <li><a href="right-sidebar.html">Right Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="submenu">
-          <a href="#">Submenu</a>
-          <ul>
-            <li><a href="#">Dolore Sed</a></li>
-            <li><a href="#">Consequat</a></li>
-            <li><a href="#">Lorem Magna</a></li>
-            <li><a href="#">Sed Magna</a></li>
-            <li><a href="#">Ipsum Nisl</a></li>
-          </ul>
-        </li>
+        <li><a href="{{ '/grapes.html' | absolute_url }}">About our Grapes</a></li>
+        <li><a href="{{ '/location.html' | absolute_url }}">Our location</a></li>
+        <!--<li><a href="right-sidebar.html">Right Sidebar</a></li>-->
+        <li><a href="{{ '/contact.html' | absolute_url }}">Contact</a></li>
+        <!--<li class="submenu">-->
+          <!--<a href="#">Submenu</a>-->
+          <!--<ul>-->
+            <!--<li><a href="#">Dolore Sed</a></li>-->
+            <!--<li><a href="#">Consequat</a></li>-->
+            <!--<li><a href="#">Lorem Magna</a></li>-->
+            <!--<li><a href="#">Sed Magna</a></li>-->
+            <!--<li><a href="#">Ipsum Nisl</a></li>-->
+          <!--</ul>-->
+        <!--</li>-->
       </ul>
     </li>
-    <li><a href="#" class="button special">Sign Up</a></li>
+    <li><a href="{{ 'blog.html' | absolute_url }}" class="button special">News and updates</a></li>
   </ul>
 </nav>

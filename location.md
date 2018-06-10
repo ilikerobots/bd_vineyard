@@ -1,27 +1,9 @@
 ---
-title: About our grapes - Black Dog Vineyard 
-layout: left-sidebar
-header: About our **grapes**
-icon: fa-leaf
+title: About our location - Black Dog Vineyard 
+layout: no-sidebar
+header: Our location
 description: We have two grape varieties...  Both are perfect for wine.
-sidebar_sections:
-  - title: This is the first title.
-    description: This is the first section.
-    cta: Tell me more
-    link: contact.html
-  - title: This is the second title.
-    description: This is the **second** section.
-    img: dog_01.jpg
-    cta: Get started
-    link: contact.html
-  - title: Foo bat
-    description: |
-      This is a long section with multiple paragraphs.
-      This is a long section with multiple paragraphs.
-      This is a long section with multiple paragraphs.
-    img: dog_01.jpg
-    cta: I'm ready
-    link: contact.html
+icon: fa-map
 row_sections:
   - title: Pick grapes.
     description: This is the first section.
@@ -38,7 +20,7 @@ row_sections:
     link: contact.html
 ---
 
-![My helpful screenshot]({{ "/images/dog_01.jpg" | absolute_url }})
+![Our Location]({{ "/images/blackdog_vineyard_location.png" | absolute_url }})
 ## This is a page about a vineyard, **two humans**, and a few **black dogs**. 
 
 This content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/), which should be relatively easy to edit.
