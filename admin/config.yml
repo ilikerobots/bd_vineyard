@@ -1,7 +1,7 @@
 backend:
   branch: master # Branch to update (optional; defaults to master)
   name: github
-  repo: likerobots/bd_vineyard
+  repo: ilikerobots/bd_vineyard
   #name: git-gateway
 
 media_folder: "images" # Media files will be stored in the repo under images/uploads
