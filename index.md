@@ -2,7 +2,7 @@
 title: Black Dog Vineyard - Self pick wine grapes in Terre Haute, Indiana
 layout: default
 callout: |
-  ## Here's s section that **grabs attention**. We should use it productively.
+  ## Here's a section that **grabs attention**. We should use it productively.
   Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. 
   Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. 
   Aliquam eu elit eget arcu commodo.
