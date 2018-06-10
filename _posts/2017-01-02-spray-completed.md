@@ -4,6 +4,7 @@ layout: no-sidebar
 icon: fa-leaf
 header: Spraying completed
 description: Preparations continue, spring is underway
+date:   2017-01-02  20:50:00
 ---
 
 # Oraque velo aura cum longius mansit

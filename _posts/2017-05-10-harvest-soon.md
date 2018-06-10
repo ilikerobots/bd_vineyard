@@ -1,7 +1,6 @@
 ---
 title: Harvest update, ready to pick soon
 layout: no-sidebar
-date: no-sidebar
 icon: fa-leaf
 header: Harvest update, ready to pick soon
 description: The grapes are developing nicely.
