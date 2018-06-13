@@ -7,43 +7,49 @@ backend:
 media_folder: "images" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+  - label: "Welcome"
+    name: "index"
+    file: "index.md"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Callout, name: callout, widget: markdown}
+      - {label: Callout CTA, name: callout_cta, widget: string}
+      - {label: Callout Image 1, name: callout_img_1, widget: string}
+      - {label: Callout Image 2, name: callout_img_2, widget: string}
+      - {label: Body, name: body, widget: markdown}
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+      - label: Row Sections
+        name: row_sections
+        widget: list
+        fields:
+          - {label: Title, name: Title, widget: string}
+          - {label: Icon, name: icon, widget: string}
+          - {label: Description, name: description, widget: markdown}
+  - label: "Location"
+    name: "location"
+    file: "location.md"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Header, name: header, widget: string}
+      - {label: Description, name: description, widget: markdown}
+      - {label: Body, name: body, widget: markdown}
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+  - label: "Blog" # Used in the UI
+    name: "blog" # Used in routes, e.g., /admin/collections/blog
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "no-sidebar"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "header", name: "header", widget: "string"}
-      - {label: "description", name: "description", widget: "string"}
+      - {label: "Header", name: "header", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "Index Page"
-        name: "index"
-        file: "index.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Callout, name: callout, widget: markdown}
-          - {label: Callout CTA, name: callout_cta, widget: string}
-          - {label: Callout Image 1, name: callout_img_1, widget: string}
-          - {label: Callout Image 2, name: callout_img_2, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - label: Row Sections
-            name: row_sections
-            widget: list
-            fields:
-              - {label: Title, name: Title, widget: string}
-              - {label: Icon, name: icon, widget: string}
-              - {label: Description, name: description, widget: markdown}
-      - label: "Location"
-        name: "location"
-        file: "location.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Header, name: header, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Body, name: body, widget: markdown}
+
