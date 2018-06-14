@@ -20,18 +20,15 @@ collections:
         - {label: Title, name: title, widget: string}
         - {label: Callout, name: callout, widget: markdown}
         - {label: Callout CTA, name: callout_cta, widget: string}
-        - {label: Callout Image 1, name: callout_img_1, widget: string}
-        - {label: Callout Image 2, name: callout_img_2, widget: string}
+        - {label: Callout Image 1, name: callout_img_1, widget: image}
+        - {label: Callout Image 2, name: callout_img_2, widget: image}
         - {label: Body, name: body, widget: markdown}
-        - label: "Layout"
-          name: "layout"
-          widget: "select"
-          options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+        - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
         - label: Row Sections
           name: row_sections
           widget: list
           fields:
-            - {label: Title, name: Title, widget: string}
+            - {label: Page Title, name: Title, widget: string}
             - {label: Icon, name: icon, widget: string}
             - {label: Description, name: description, widget: markdown}
     - label: "Location"
@@ -39,6 +36,18 @@ collections:
       file: "location.md"
       fields:
         - {label: Title, name: title, widget: string}
+        - {label: Header, name: header, widget: string}
+        - {label: Description, name: description, widget: markdown}
+        - {label: Body, name: body, widget: markdown}
+        - label: "Layout"
+          name: "layout"
+          widget: "select"
+          options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+    - label: "Grapes"
+      name: "grapes"
+      file: "grapes.md"
+      fields:
+        - {label: Page Title, name: title, widget: string}
         - {label: Header, name: header, widget: string}
         - {label: Description, name: description, widget: markdown}
         - {label: Body, name: body, widget: markdown}
