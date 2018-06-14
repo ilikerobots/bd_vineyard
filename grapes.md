@@ -8,16 +8,9 @@ sidebar_sections:
     title: Some sidebar info
     description: >-
       Here's longer description!  Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Donec sollicitudin orci ullamcorper, convallis lorem ac,
-      cursus neque. Orci varius natoque penatibus et magnis dis parturient
-      montes, nascetur ridiculus mus. Mauris sit amet odio nibh. Donec ipsum
-      dui, ornare non felis sollicitudin, volutpat placerat diam. Maecenas
-      feugiat dapibus malesuada. Nulla facilisi. Quisque elementum lacinia diam
-      ut tincidunt. Vivamus sagittis quis erat sit amet ullamcorper. Aenean
-      iaculis diam vitae sem varius dignissim. Vestibulum urna velit, ultricies
-      vitae est ac, suscipit tincidunt urna. Aliquam rhoncus volutpat augue sed
-      fermentum. Pellentesque in ante ut ex elementum accumsan eu pretium purus.
-      Nunc sollicitudin hendrerit faucibus.
+      adipiscing elit. Donec sollicitudin orci ullamcorper, convallis **lorem**
+      ac, cursus neque. Orci varius natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus.
     img: /images/pic01.jpg
     link: grapes.html
 ---
