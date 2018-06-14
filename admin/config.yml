@@ -28,14 +28,21 @@ collections:
           name: row_sections
           widget: list
           fields:
-            - {label: Page Title, name: Title, widget: string}
+            - {label: Page Title, name: title, widget: string}
             - {label: Icon, name: icon, widget: string}
             - {label: Description, name: description, widget: markdown}
+        - label: Grid Sections
+          name: grid_sections
+          widget: list
+          fields:
+            - {label: Page Title, name: title, widget: string}
+            - {label: Description, name: description, widget: markdown}
+            - {label: Image, name: img, widget: image}
     - label: "Location"
       name: "location"
       file: "location.md"
       fields:
-        - {label: Title, name: title, widget: string}
+        - {label: Page Title, name: title, widget: string}
         - {label: Header, name: header, widget: string}
         - {label: Description, name: description, widget: markdown}
         - {label: Body, name: body, widget: markdown}
@@ -43,6 +50,25 @@ collections:
           name: "layout"
           widget: "select"
           options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+        - label: Sidebar Sections
+          name: sidebar_sections
+          widget: list
+          required: false
+          fields:
+          - {label: Header, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: CTA, name: cta, widget: string}
+          - {label: Image, name: img, widget: image}
+          - {label: Link, name: link, widget: string}
+        - label: Row Sections
+          name: row_sections
+          widget: list
+          required: false
+          fields:
+          - {label: Header, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: CTA, name: cta, widget: string}
+          - {label: Link, name: link, widget: string}
 
     - label: "Grapes"
       name: "grapes"
