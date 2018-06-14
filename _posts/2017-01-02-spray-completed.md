@@ -1,15 +1,17 @@
 ---
-title: Spraying completed
 layout: no-sidebar
-icon: fa-leaf
+title: Spraying completed
 header: Spraying completed
-description: Preparations continue, spring is underway
-date:   2017-01-02  20:50:00
+description: 'Preparations continue, spring is underway'
+date: 2017-01-02T20:50:00.000Z
 ---
-
 # Oraque velo aura cum longius mansit
 
 ## Atria miserat
+
+
+
+![Some info](/images/pic04.jpg)
 
 Lorem markdownum virtusque herbae **ingreditur** habebat hac quoque lacunabant
 coniunx; coeptis ira precor. Iaculo et honore regnat loquentis urbe viscera
@@ -36,7 +38,7 @@ Umbram tamen! Est illa quaerit. Nec molle est aureus quemque.
 5. Terga erat linguae tamen
 
 Ruere Quid **cernes tympanaque cava** raucaque Ceyx qua, nec bracchia, his.
-Undas nec, *vox* sed occupat anno sternebat postulat pars Aeacus latum [aequora
+Undas nec, _vox_ sed occupat anno sternebat postulat pars Aeacus latum [aequora
 comitemque vestigia](http://metutamen.net/coniugelicet.aspx), grave. Stupet
 inferre naris, sed, nec in ora inmensae, iuvenem ipsi; regia hoc,
 [nec](http://vixque.com/muneribus) de.
@@ -49,9 +51,9 @@ flamma, quisquam praecipiunt colla viros ignotis felix iura vel unde.
 
 Coepit fluminis tetigit **undas et retro**; pereat si mihi nullo digiti in **par
 non**; terram. Inpetus liquentibus innuba arvis, maris, formamque devastata
-paciscitur rivus. *Producit agit* quod sororis est; me rogant dextra, si. Timeas
+paciscitur rivus. _Producit agit_ quod sororis est; me rogant dextra, si. Timeas
 e caloris oceano hoc ibis hauriret praesaga habet Nerea alii dum exemplis
-Telethusa moenia caput *meritasque postquam*.
+Telethusa moenia caput _meritasque postquam_.
 
 Dixit si odoribus vanis agmen est, paelice hoc gentis aeterna idem. Quidem
 seduxit alteriusque inpatiens; ungues terque prodest, tanget aurea.
