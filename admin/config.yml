@@ -59,6 +59,7 @@ collections:
         - label: Sidebar Sections
           name: sidebar_sections
           widget: list
+          required: false
           fields:
           - {label: Header, name: title, widget: string}
           - {label: Description, name: description, widget: markdown}
@@ -68,6 +69,7 @@ collections:
         - label: Row Sections
           name: row_sections
           widget: list
+          required: false
           fields:
           - {label: Header, name: title, widget: string}
           - {label: Description, name: description, widget: markdown}
