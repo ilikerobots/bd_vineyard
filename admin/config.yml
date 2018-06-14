@@ -43,6 +43,7 @@ collections:
           name: "layout"
           widget: "select"
           options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+
     - label: "Grapes"
       name: "grapes"
       file: "grapes.md"
@@ -58,20 +59,20 @@ collections:
         - label: Sidebar Sections
           name: sidebar_sections
           widget: list
-            fields:
-            - {label: Header, name: title, widget: string}
-            - {label: Description, name: description, widget: markdown}
-            - {label: CTA, name: cta, widget: string}
-            - {label: Image, name: img, widget: image}
-            - {label: Link, name: link, widget: string}
+          fields:
+          - {label: Header, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: CTA, name: cta, widget: string}
+          - {label: Image, name: img, widget: image}
+          - {label: Link, name: link, widget: string}
         - label: Row Sections
           name: row_sections
           widget: list
-            fields:
-            - {label: Header, name: title, widget: string}
-            - {label: Description, name: description, widget: markdown}
-            - {label: CTA, name: cta, widget: string}
-            - {label: Link, name: link, widget: string}
+          fields:
+          - {label: Header, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: CTA, name: cta, widget: string}
+          - {label: Link, name: link, widget: string}
   - label: "Blogs" # Used in the UI
     label_singular: "Blog" # Used in the UI, ie: "New Post"
     name: "blog" # Used in routes, e.g., /admin/collections/blog
