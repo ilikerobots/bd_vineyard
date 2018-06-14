@@ -11,7 +11,7 @@ date: 2017-01-02T20:50:00.000Z
 
 
 
-![Some info](/images/pic04.jpg)
+![Some info](/images/2012-08-25-13.27.45.jpg)
 
 Lorem markdownum virtusque herbae **ingreditur** habebat hac quoque lacunabant
 coniunx; coeptis ira precor. Iaculo et honore regnat loquentis urbe viscera
