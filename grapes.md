@@ -1,7 +1,7 @@
 ---
 title: About our grapes - Black Dog Vineyard
 header: About our **grapes** and vineyard.
-description: We have two grape varieties...  Both are perfect for wine.
+description: We have two grape varieties...  Both are **perfect** for wine.
 layout: left-sidebar
 sidebar_sections:
   - cta: Let's get started!
@@ -11,7 +11,7 @@ sidebar_sections:
       adipiscing elit. Donec sollicitudin orci ullamcorper, convallis **lorem**
       ac, cursus neque. Orci varius natoque penatibus et magnis dis parturient
       montes, nascetur ridiculus mus.
-    img: /images/pic01.jpg
+    img: /images/2012-08-25-13.27.45.jpg
     link: grapes.html
 ---
 ![My helpful screenshot](/images/banner.jpg)
@@ -21,6 +21,4 @@ sidebar_sections:
 This content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/), which should be relatively easy to edit.
 There's probably a _bit more_ to say here.  Stuff about **grapes** and fields and **pruning**.
 
-<!--
-You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
--->
+This content is written in Markdown, which should be relatively easy to edit. There's probably a bit more to say here. Stuff about grapes and fields and pruning.
