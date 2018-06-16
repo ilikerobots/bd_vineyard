@@ -23,26 +23,19 @@ row_sections:
     title: This is the second title.
   - description: |
       This is a long section with multiple paragraphs.
-    icon: fa-cog
-    title: Foo bat
-grid_intro: Want to pick grapes? **We welcome all**.
+    icon: fa-cog 
+grid_intro: We grow two varieties, both **superb**.
 grid_cta: Learn more
+grid_link: grapes.html
 grid_sections:
-  - description: This is the first section.
-    img: dog_01.jpg
-    title: Professionals.
-  - description: This is the **second** section.
-    img: dog_01.jpg
-    title: Amateurs
-  - description: >-
-      Test copy. Test copy. Test copy. Test copy. Test copy. Test copy. Test
-      copy. Test copy. Test copy. Test copy. Test copy. Test copy.
-    img: dog_01.jpg
-    title: Experience-seekers
-  - description: |
-      This is a long section with multiple paragraphs.
-    img: dog_01.jpg
-    title: And number four
+  - title: Marechal Foch
+    description: Marechal Foch is used to make a variety of styles of wine, ranging from a light red wine similar to Beaujolais to more extracted wines with intense dark "inky" purple color and unique varietal character, and even sweet, fortified, Port-like wines.
+    img: banner.jpg
+    link: grapes.html#marechal-foch
+  - title: Traminette
+    description: Traminette wine has been chosen by the Indiana Wine Grape Council as the signature wine of the state. The wine is also grown in some regions of Ohio.
+    img: banner.jpg
+    link: grapes.html#traminette
 maincta_header: Ready to **pick grapes**?
 maincta_text: We're waiting for *you*! Plan your experience today.
 maincta_btn_primary: Plan my visit

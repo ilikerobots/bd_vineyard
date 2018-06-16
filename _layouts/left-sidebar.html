@@ -27,11 +27,13 @@ layout: shell
               <h3>{{ section.title | unindent | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
             </header>
             {{ section.description | unindent | markdownify}}
+            {% if section.cta %}
             <footer>
               <ul class="buttons">
                 <li><a href="{{ section.link }}" class="button small">{{ section.cta }}</a></li>
               </ul>
             </footer>
+            {% endif %}
           </section>
           {% endfor %}
 

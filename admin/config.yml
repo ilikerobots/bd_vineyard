@@ -33,6 +33,7 @@ collections:
             - {label: Description, name: description, widget: markdown}
         - {label: Grid Intro, name: grid_intro, widget: string}
         - {label: Grid CTA, name: grid_cta, widget: string}
+        - {label: Grid Link, name: grid_link, widget: string}
         - label: Grid Sections
           name: grid_sections
           widget: list
@@ -40,6 +41,7 @@ collections:
             - {label: Page Title, name: title, widget: string}
             - {label: Description, name: description, widget: markdown}
             - {label: Image, name: img, widget: image}
+            - {label: Link, name: link, widget: string}
         - {label: Main CTA Header, name: maincta_header, widget: string}
         - {label: Main CTA Text, name: maincta_text, widget: string}
         - {label: Main CTA Primary Button, name: maincta_btn_primary, widget: string}
