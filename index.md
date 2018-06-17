@@ -40,7 +40,9 @@ grid_sections:
 maincta_header: Ready to **pick grapes**?
 maincta_text: We're waiting for *you*! Plan your experience today.
 maincta_btn_primary: Plan my visit
+maincta_btn_primary_link: harvest.html
 maincta_btn_secondary: Contact us
+maincta_btn_secondary_link: location.html
 ---
 
 ## We tend our vines all year long.
