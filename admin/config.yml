@@ -58,13 +58,15 @@ collections:
       - {label: Title, name: title, widget: string, required: True}
       - {label: Header, name: header, widget: string, required: True}
       - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\\.html$", "Must be \"<something>.html\""], required:True }
-      - {label: Pre-Body Intro, name: description, widget: markdown}
       - {label: Body, name: body, widget: markdown, required: True}
+      - {label: Pre-Body Intro, name: description, widget: markdown, required: False}
       - label: "Layout"
         name: "layout"
         widget: "select"
         required: "True"
+        default: "no-sidebar"
         options: ["left-sidebar", "right-sidebar", "no-sidebar"]
+      - {label: Icon, name: icon, widget: string,  default: fa-leaf, pattern: ["^fa\\-", "Must be fa-<something>. See https://fontawesome.com/icons"], required:True }
       - label: Sidebar Sections
         name: sidebar_sections
         widget: list
