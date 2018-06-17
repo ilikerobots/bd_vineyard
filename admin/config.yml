@@ -21,35 +21,37 @@ collections:
       - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\\.html$", "Must be \"<something>\".html"] }
       - {label: Layout, name: layout, widget: hidden, default: default}
       - {label: Include In Nav, name: include_in_nav, widget: hidden, default: True}
-      - {label: Callout, name: callout, widget: markdown}
-      - {label: Callout CTA, name: callout_cta, widget: string}
-      - {label: Callout Image 1, name: callout_img_1, widget: image}
-      - {label: Callout Image 2, name: callout_img_2, widget: image}
+      - {label: Callout, name: callout, widget: markdown, required: False}
+      - {label: Callout CTA, name: callout_cta, widget: string, required: False}
+      - {label: Callout Image 1, name: callout_img_1, widget: image, required: False}
+      - {label: Callout Image 2, name: callout_img_2, widget: image, required: False}
       - {label: Body, name: body, widget: markdown}
       - label: Row Sections
         name: row_sections
         widget: list
+        required: False
         fields:
           - {label: Page Title, name: title, widget: string, required: true}
           - {label: Icon, name: icon, widget: string}
           - {label: Description, name: description, widget: markdown}
-      - {label: Grid Intro, name: grid_intro, widget: string}
-      - {label: Grid CTA, name: grid_cta, widget: string}
-      - {label: Grid Link, name: grid_link, widget: string}
+      - {label: Grid Intro, name: grid_intro, widget: string, required: False}
+      - {label: Grid CTA, name: grid_cta, widget: string, required: False}
+      - {label: Grid Link, name: grid_link, widget: string, required: False}
       - label: Grid Sections
         name: grid_sections
+        required: False
         widget: list
         fields:
           - {label: Page Title, name: title, widget: string}
           - {label: Description, name: description, widget: markdown}
           - {label: Image, name: img, widget: image}
           - {label: Link, name: link, widget: string}
-      - {label: Main CTA Header, name: maincta_header, widget: string}
-      - {label: Main CTA Text, name: maincta_text, widget: string}
-      - {label: Main CTA Primary Button, name: maincta_btn_primary, widget: string}
-      - {label: Main CTA Secondary Button, name: maincta_btn_secondary, widget: string}
-  - label: "Blogs" # Used in the UI
-    label_singular: "Blog" # Used in the UI, ie: "New Post"
+      - {label: Main CTA Header, name: maincta_header, widget: string, required: False}
+      - {label: Main CTA Text, name: maincta_text, widget: string, required: False}
+      - {label: Main CTA Primary Button, name: maincta_btn_primary, widget: string, required: False}
+      - {label: Main CTA Secondary Button, name: maincta_btn_secondary, widget: string, required: False}
+  - label: "Blog Posts" # Used in the UI
+    label_singular: "Blog Post" # Used in the UI, ie: "New Post"
     name: "blog" # Used in routes, e.g., /admin/collections/blog
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
