@@ -8,17 +8,17 @@ media_folder: "images" # Media files will be stored in the repo under images/upl
 
 collections:
   - label: "Pages"
+    label_singular: "Page" # Used in the UI, ie: "New Post"
     name: "pages" # Used in routes, e.g., /admin/collections/blog
     folder: "_pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    displayFields: ["title", "header", "date"]
+    displayFields: ["title", "header"]
     searchFields: ["title", "body"]
-  - label: "Pages"
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Header, name: header, widget: string}
-      - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\\.html$", "Must be \"<something>\".html"]
+      - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\\.html$", "Must be \"<something>\".html"] }
       - {label: Layout, name: layout, widget: hidden, default: default}
       - {label: Include In Nav, name: include_in_nav, widget: hidden, default: True}
       - {label: Callout, name: callout, widget: markdown}
