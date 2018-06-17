@@ -18,7 +18,7 @@ collections:
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Header, name: header, widget: string}
-      - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\.html$", "Must be \"<something>\".html"]
+      - {label: Permanent Link, name: permalink, widget: string,   pattern: [".*\\.html$", "Must be \"<something>\".html"]
       - {label: Layout, name: layout, widget: hidden, default: default}
       - {label: Include In Nav, name: include_in_nav, widget: hidden, default: True}
       - {label: Callout, name: callout, widget: markdown}
