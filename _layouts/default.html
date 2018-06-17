@@ -63,14 +63,14 @@
         {{page.callout | unindent | markdownify }}
         <footer>
           <ul class="buttons">
-            <li><a href="#" class="button">{{page.callout_cta }}</a></li>
+            <li><a href="{{ page.callout_cta_link}}" class="button">{{page.callout_cta }}</a></li>
           </ul>
         </footer>
 
       </div>
       <div class="4u 12u(narrower) important(narrower)">
 
-        <a href="#" class="image featured"><img src="{{page.callout_img_1}}" alt=""/></a> <a href="#" class="image featured"><img
+        <a class="image featured"><img src="{{page.callout_img_1}}" alt=""/></a> <a class="image featured"><img
               src="{{page.callout_img_2}}" alt=""/></a>
         <!--<ul class="featured-icons">-->
         <!--<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>-->

@@ -13,6 +13,7 @@ callout: >
   You are welcome to bring your own equipment, or come empty-handed and we will
   give you everything you need to collect and deliver your own harvest.
 callout_cta: Find out more
+callout_cta_link: harvest.html
 callout_img_1: /images/DSC00622.JPG
 callout_img_2: /images/Memorial Day 09 001.JPG
 row_sections:

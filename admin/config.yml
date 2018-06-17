@@ -21,6 +21,7 @@ collections:
         - {label: Layout, name: layout, widget: hidden, default: default}
         - {label: Callout, name: callout, widget: markdown}
         - {label: Callout CTA, name: callout_cta, widget: string}
+        - {label: Callout CTA Link, name: callout_cta_link, widget: string}
         - {label: Callout Image 1, name: callout_img_1, widget: image}
         - {label: Callout Image 2, name: callout_img_2, widget: image}
         - {label: Body, name: body, widget: markdown}
@@ -67,7 +68,7 @@ collections:
         required: "True"
         default: "no-sidebar"
         options: ["left-sidebar", "right-sidebar", "no-sidebar"]
-      - {label: Icon, name: icon, widget: string,  default: fa-leaf, pattern: ["^fa\\-", "Must be fa-<something>. See https://fontawesome.com/icons"], required:True }
+      - {label: Icon, name: icon, widget: string,  default: fa-leaf, pattern: ["^fa\\-", "Must be fa-<something>. See https://faicons.com/"], required:True }
       - label: Sidebar Sections
         name: sidebar_sections
         widget: list
