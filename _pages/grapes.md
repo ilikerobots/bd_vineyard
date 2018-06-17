@@ -1,7 +1,7 @@
 ---
-title: About our grapes - Black Dog Vineyard
-header: About our **grapes**.
-description: We have two grape varieties...  Both are **perfect** for wine.
+title: About our grape vines - Black Dog Vineyard
+header: About **our vines**
+description: "We have two grape varieties: [Marechal Foch](#marechal-foch) and [Traminette](#traminette)"
 layout: left-sidebar
 sidebar_sections:
   - cta: View Updates 
@@ -9,7 +9,9 @@ sidebar_sections:
     description: >-
       The harvest time for each grape variety can vary.
     img: /images/2012-08-25-13.27.45.jpg
-    link: grapes.html
+    link: blog.html
+permalink: grapes.html
+include_in_nav: True
 ---
 
 

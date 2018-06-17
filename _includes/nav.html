@@ -4,9 +4,15 @@
     <li class="submenu">
       <a href="#">More</a>
       <ul>
-        <li><a href="{{ '/grapes.html' | absolute_url }}">About our Grapes</a></li>
-        <li><a href="{{ '/location.html' | absolute_url }}">Our location</a></li>
+        <!--<li><a href="{{ '/grapes.html' | absolute_url }}">About our Vines</a></li>-->
+        <!--<li><a href="{{ '/harvest.html' | absolute_url }}">Join the Harvest</a></li>-->
+        <!--<li><a href="{{ '/location.html' | absolute_url }}">Our location</a></li>-->
         <!--<li><a href="right-sidebar.html">Right Sidebar</a></li>-->
+        {% for p in site.pages %}
+        {% if p.include_in_nav %}
+        <li><a href="{{ p.url | absolute_url }}">{{ p.header | markdownify  | strip_html }}</a></li>
+        {% endif %}
+        {% endfor %}
         <li><a href="{{ '/contact.html' | absolute_url }}">Contact</a></li>
         <!--<li class="submenu">-->
           <!--<a href="#">Submenu</a>-->

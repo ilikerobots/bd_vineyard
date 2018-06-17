@@ -18,6 +18,8 @@ row_sections:
       This is a long section with multiple paragraphs.
     cta: All set
     link: contact.html
+permalink: location.html
+include_in_nav: True
 ---
 
 ![Our Location]({{ "/images/blackdog_vineyard_location.png" | absolute_url }})

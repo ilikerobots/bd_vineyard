@@ -2,15 +2,14 @@
 title: 'Black Dog Vineyard - Self pick wine grapes in Terre Haute, Indiana'
 layout: default
 callout: >
-  ## Here's a section that **grabs attention**. We should use it productively.
+  ## No experience necessary
 
-  Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu
-  comteger ut fermentum lorem. Lorem ipsum dolor sit amet. 
+  Harvesting grapes is an ancient process, and is perhaps the most critical step in wine-making.  But the process is easily learned.
+  With only a few minutes instruction, we will leave you to your own to collect your own superb wine grapes.
 
-  Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed
-  tristique purus vitae volutpat ultrices. 
-
-  Aliquam eu elit eget arcu commodo.
+  We welcome all comers, from those with no experience to seasoned vintners.  You are welcome to bring your own equipment, or come
+  empty-handed and we will give you everything you need to collect and deliver your own harvest.
+  
 callout_cta: Find out more
 callout_img_1: dog_01.jpg
 callout_img_2: dog_01.jpg
@@ -25,7 +24,7 @@ row_sections:
       This is a long section with multiple paragraphs.
     icon: fa-cog 
 grid_intro: We grow two varieties, both **superb**.
-grid_cta: Learn more
+grid_cta: About our Grape Vines
 grid_link: grapes.html
 grid_sections:
   - title: Marechal Foch
@@ -40,11 +39,17 @@ maincta_header: Ready to **pick grapes**?
 maincta_text: We're waiting for *you*! Plan your experience today.
 maincta_btn_primary: Plan my visit
 maincta_btn_secondary: Contact us
+include_in_nav: False
 ---
 
-## This is a page about a vineyard, **two humans**, and a few **black dogs**. 
+## We tend our vines all year long.
+## Now it's **your turn to harvest**.
 
-This content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/), which should be relatively easy to edit.
-There's probably a _bit more_ to say here.  Stuff about **grapes** and fields and **pruning**.
+Since 2005, we have tended to our two acres of grape vines with responsible stewardship of plants, crops, and land.  
+
+After many years or harvesting our own vines, we now invite you to participate in this unique experience.  
+
+Best of all, you can buy what you pick for as little as one dollar per pound, and turn your efforts into a bottle of wine you'll remember forever.
+
 
 
