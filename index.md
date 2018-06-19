@@ -12,6 +12,8 @@ callout: >-
   invite everyone with an interest in making wine from fine grapes to join our
   harvest.
 
+
+
   We welcome all comers,  so if you are trying out your first crush or you have
   done it for years, come and join us.  You are welcome to bring your own
   equipment, or come empty-handed and we will give you everything you need to
