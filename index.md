@@ -41,7 +41,7 @@ grid_sections:
     link: 'grapes.html#marechal-foch'
     title: Marechal Foch
   - description: "Traminette wine has been chosen by the\_Indiana\_Wine Grape Council as the signature wine of the state.\_The wine is also grown in some regions of\_Ohio."
-    img: /images/2017-07-07 11.25.17.jpg
+    img: /images/2012-08-25 13.27.45.jpg
     link: 'grapes.html#traminette'
     title: Traminette
 maincta_header: Ready to **pick grapes**?
