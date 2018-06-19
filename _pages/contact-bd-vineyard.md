@@ -8,11 +8,11 @@ include_in_nav: true
 ---
 Black Dog Vineyard is located at :
 
-7622 N. Meneely Street
+**7622 N. Meneely Street**
 
-Terre Haute IN 47805.
+**Terre Haute IN 47805.**
 
-Our telephone number is: 812-877-1933
+Our telephone number is: **812-877-1933**
 
 or e-mail us at 
 
@@ -20,4 +20,4 @@ _kevin@bdvineyard.com_
 
 _linda@bdvineyard.com_
 
-![](/images/blackdog_vineyard_location.png)
+![null](/images/blackdog_vineyard_location.png)
