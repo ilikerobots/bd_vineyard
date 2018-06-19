@@ -62,7 +62,7 @@ After clicking the "Blogs" collection, the current blog posts are listed.   From
 ### Adding a Blog Post
 After clicking the "Blogs" collection, the current blog posts are listed.  Choose "New Blog" button.  Add content to each of the fields above.  Publish.
 
-{{ screenshot adding blog}}
+![New Blog](https://raw.githubusercontent.com/ilikerobots/bd_vineyard/master/readme_images/Screenshot_bd_new_blog.png)
 
 
 ### Editing the Welcome Page
