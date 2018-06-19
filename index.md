@@ -1,17 +1,21 @@
 ---
 title: 'Black Dog Vineyard - Self pick wine grapes in Terre Haute, Indiana'
 layout: default
-callout: >
+callout: >-
   ## No experience necessary
 
-  Harvesting grapes is an ancient process, and is perhaps the most critical step
-  in wine-making.  But the process is easily learned. With only a few minutes
-  instruction, we will leave you to your own to collect your own superb wine
-  grapes.
 
-  We welcome all comers, from those with no experience to seasoned vintners. 
-  You are welcome to bring your own equipment, or come empty-handed and we will
-  give you everything you need to collect and deliver your own harvest.
+  Growing and harvesting grapes is an ancient process, perhaps the most crucial
+  in the wine making process.  "Great wine begins in the vineyard," is a phrase
+  that dates back to antiquity.  Our vines have a noble heritage and a promising
+  future.  We have been growing for the commercial trade since 2005 and now we
+  invite everyone with an interest in making wine from fine grapes to join our
+  harvest.
+
+  We welcome all comers,  so if you are trying out your first crush or you have
+  done it for years, come and join us.  You are welcome to bring your own
+  equipment, or come empty-handed and we will give you everything you need to
+  collect and deliver your own harvest.
 callout_cta: Find out more
 callout_cta_link: harvest.html
 callout_img_1: /images/DSC00622.JPG
@@ -42,18 +46,14 @@ maincta_header: Ready to **pick grapes**?
 maincta_text: We're waiting for *you*! Plan your experience today.
 maincta_btn_primary: Plan my visit
 maincta_btn_primary_link: harvest.html
-maincta_btn_secondary: Contact us
 maincta_btn_secondary_link: location.html
 ---
-
 ## We tend our vines all year long.
+
 ## Now it's **your turn to harvest**.
 
-Since 2005, we have tended to our two acres of grape vines with responsible stewardship of plants, crops, and land.  
+Since 2005, we have tended to our two acres of grape vines with responsible stewardship of plants, crops, and land.  Our grapes have gone into a number of interesting and innovative vintages.
 
-After many years or harvesting our own vines, we now invite you to participate in this unique experience.  
+And while we will continue to sell most of our harvest to commercial wineries, we now invite all our wine-making friends to participate in this unique experience.  
 
 Best of all, you can buy what you pick for as little as one dollar per pound, and turn your efforts into a bottle of wine you'll remember forever.
-
-
-
