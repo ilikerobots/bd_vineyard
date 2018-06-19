@@ -21,7 +21,7 @@ callout: >-
 callout_cta: Find out more
 callout_cta_link: harvest.html
 callout_img_1: /images/DSC00622.JPG
-callout_img_2: /images/Memorial Day 09 001.JPG
+callout_img_2: /images/2017-07-07 11.24.39.jpg
 row_sections:
   - description: This is the first section.
     icon: fa-clock-o
