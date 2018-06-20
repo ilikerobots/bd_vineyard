@@ -10,7 +10,24 @@ icon: fa-leaf
 sidebar_sections:
   - cta: View Updates
     title: Harvest Times
-    description: The harvest time for each grape variety can vary.
+    description: >-
+      Foch is an early harvest grape.  We have harvested as early as August 15th
+      and as late as August 31st.
+
+
+      Traminette is a bit later, generally after Labor Day but before September
+      15th.
+
+
+      Because of a very cool 2018 spring, we expect our harvests to be later
+      rather in the spectrum.
+
+
+      We take our cues for harvest from our commercial buyers.  They generally
+      specify sugar content (Brix) and pH values they are seeking, with pH being
+      the more important.  We strive for Brix percentages in the high teens and
+      low 20's and pH above 3.2.  When grapes get this ripe, we engage in
+      pitched battles with birds on a daily basis.
     img: /images/2012-08-25-13.27.45.jpg
     link: blog.html
 include_in_nav: true
