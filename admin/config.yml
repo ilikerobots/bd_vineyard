@@ -47,6 +47,7 @@ collections:
         - {label: Main CTA Text, name: maincta_text, widget: string}
         - {label: Main CTA Primary Button, name: maincta_btn_primary, widget: string}
         - {label: Main CTA Primary Button Link, name: maincta_btn_primary_link, widget: string}
+        - {label: Main CTA Secondary Button, name: maincta_btn_secondary, widget: string}
         - {label: Main CTA Secondary Button Link, name: maincta_btn_secondary_link, widget: string}
   - label: "Pages"
     label_singular: "Page" # Used in the UI, ie: "New Post"

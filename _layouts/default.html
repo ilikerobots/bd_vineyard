@@ -151,8 +151,8 @@
   </header>
   <footer>
     <ul class="buttons">
-      <li><a href="{{ page.maincta_btn_primary_link}}" class="button special">{{ page.maincta_btn_primary}}</a></li>
-      <li><a href="{{ page.maincta_btn_secondary_link}}#" class="button">{{ page.maincta_btn_secondary}}</a></li>
+      {% if page.maincta_btn_primary %}<li><a href="{{ page.maincta_btn_primary_link}}" class="button special">{{ page.maincta_btn_primary}}</a></li>{% endif %}
+      {% if page.maincta_btn_secondary %}<li><a href="{{ page.maincta_btn_secondary_link}}#" class="button">{{ page.maincta_btn_secondary}}</a></li>{% endif %}
     </ul>
   </footer>
 
