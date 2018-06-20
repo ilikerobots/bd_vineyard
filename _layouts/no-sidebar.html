@@ -11,16 +11,19 @@ layout: shell
   </header>
 
   <!-- One -->
+  {% assign content = content | strip_newlines %}
+  {% if content != ""  %}
   <section class="wrapper style4 container">
 
     <!-- Content -->
     <div class="content">
       <section>
-        {{ content }}
+        |{{ content }}|
       </section>
     </div>
 
   </section>
+  {% endif %}
 
   <!-- Two -->
   <section class="wrapper style1 container special">

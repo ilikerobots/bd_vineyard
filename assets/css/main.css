@@ -1269,6 +1269,8 @@ blockquote {
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
+  section.special img, article.special img {
+    max-width: 100%; }
 
 header.major {
   padding-bottom: 2em; }
@@ -1368,7 +1370,7 @@ input[type="email"] {
 /* Image */
 .content section img {
   display: block;
-  width: 100%; }
+  max-width: 100%; }
 
 .image {
   border: 0;
@@ -1391,7 +1393,7 @@ input[type="email"] {
     margin: 0 0 2em 0; }
     .image.featured img {
       display: block;
-      width: 100%; }
+      max-width: 100%; }
 
 /* Icon */
 .icon {
@@ -1852,6 +1854,8 @@ input[type="reset"],
       border-top: 0;
       padding-top: 0;
       margin-top: 0; }
+    #main .sidebar section img {
+      max-width: 100%; }
 
 body.index #main {
   padding-top: 5em; }
