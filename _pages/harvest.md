@@ -2,7 +2,10 @@
 title: Join the harvest - Black Dog Vineyard
 header: Join the harvest
 permalink: harvest.html
-description: Harvest your own wine grapes from our vineyard.
+description: |-
+  ![](/images/Oct-Dec 2005 007.JPG)
+
+  Harvest your own wine grapes from our vineyard.
 layout: right-sidebar
 icon: fa-clock-o
 sidebar_sections:
