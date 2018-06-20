@@ -31,7 +31,7 @@ Marechal Foch is used to make a variety of styles of wine, ranging from a light 
 
 Traminette is a cross of the French American hybrid Joannes Seyve 23.416 and the German Vitis vinifera cultivar Gewürztraminer made by Herb C. Barrett ca. 1965 at the University of Illinois, Urbana/Champaign. His intention was to produce a large clustered table grape with the flavor of Gewürztraminer. He sent the cross to the New York State Agricultural Experiment Station grape breeding program at Cornell for development when he departed from Illinois. Traminette was found to have excellent wine quality, combined with good productivity, partial resistance to several fungal diseases, and cold hardiness superior to its acclaimed parent, Gewürztraminer, while retaining a similar character.
 
-![Traminette](/images/2017-07-07 11.25.17.jpg)
+![Traminette](/images/2011-08-03-09.35.41.jpg)
 
 Traminette produces solid yields, ranging in studies from 12-22 lbs/vine average.
 
