@@ -1,6 +1,6 @@
 ---
 title: About our location - Black Dog Vineyard
-header: Our location
+header: Old Location page - deleteme
 permalink: location.html
 description: We have two grape varieties...  Both are perfect for wine.
 layout: no-sidebar
