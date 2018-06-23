@@ -4,7 +4,6 @@ header: Our location
 permalink: contact.html
 description: Get in touch with us
 layout: right-sidebar
-icon: fa-comment
 sidebar_sections:
   - cta: View Map 
     title: Harvest Times

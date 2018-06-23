@@ -6,7 +6,8 @@ layout: shell
 <article id="main">
 
   <header class="special container">
-    <span class="icon {{ page.icon }}"></span>
+    <!--<span class="icon {{ page.icon }}"></span>-->
+    <img class="logo" src="/images/logos/Gray_Logo.png"/>
     <h2>{{ page.header | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
     {{ page.description | unindent | markdownify  }}
   </header>

@@ -6,7 +6,6 @@ description: >-
   We have two grape varieties: [Marechal Foch](#marechal-foch) and
   [Traminette](#traminette)
 layout: right-sidebar
-icon: fa-leaf
 sidebar_sections:
   - cta: View Updates
     title: Harvest Times

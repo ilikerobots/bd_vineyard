@@ -3,11 +3,11 @@ title: Join the harvest - Black Dog Vineyard
 header: Join the harvest
 permalink: harvest.html
 description: |-
-  ![](/images/Oct-Dec 2005 007.JPG)
+  ![](/images/k_l_smiling_with_lugs.jpg)
+
 
   Harvest your own wine grapes from our vineyard.
 layout: right-sidebar
-icon: fa-clock-o
 sidebar_sections:
   - cta: View Updates
     title: Prices
@@ -34,3 +34,5 @@ It's fun. It's easy. It's great to be outdoors in a vineyard full of lush, ripe 
 
 
 But while you're at it, why don't you make a day of it. Bring a picnic lunch, maybe even a bottle of wine.  Let the kids play in the 6 acre lawn. Black Dog Vineyard is a beautiful piece of Hoosier countryside with woods, water and all kinds of critters.  Why, you might even meet the famous black dogs themselves.
+  
+![](/images/chief_in_row_cropped.JPG)

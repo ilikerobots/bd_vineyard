@@ -6,9 +6,10 @@ layout: shell
 <article id="main">
 
   <header class="special container">
-    <span class="icon {{ page.icon }}"></span>
+    <!--<span class="icon {{ page.icon }}">-->
+    <img class="logo" src="/images/logos/Gray_Logo.png"/></span>
     <h2>{{ page.header | unindent | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-    {{ page.description | unindent | markdownify  }}
+    {{ page.description | unindent | markdownify }}
   </header>
 
   <!-- One -->
@@ -26,8 +27,7 @@ layout: shell
             <header>
               <h3>{{ section.title | unindent | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
             </header>
-            {{ section.description | unindent | markdownify}}
-            {% if section.cta %}
+            {{ section.description | unindent | markdownify}} {% if section.cta %}
             <footer>
               <ul class="buttons">
                 <li><a href="{{ section.link }}" class="button small">{{ section.cta }}</a></li>

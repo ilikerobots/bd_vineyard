@@ -207,6 +207,17 @@
 					opacity: 0.35;
 				}
 			}
+
+			img {
+				max-width: 100%;
+			}
+
+			img.logo {
+				position: relative;
+				height: 80px;
+				top: -100px;
+			}
+
 		}
 	}
 

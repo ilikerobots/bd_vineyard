@@ -1308,6 +1308,12 @@ header.special {
     header.special .icon:before {
       font-size: 3.5em;
       opacity: 0.35; }
+  header.special img {
+    max-width: 100%; }
+  header.special img.logo {
+    position: relative;
+    height: 80px;
+    top: -100px; }
 
 footer > :last-child {
   margin-bottom: 0; }

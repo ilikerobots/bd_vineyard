@@ -69,7 +69,6 @@ collections:
         required: "True"
         default: "no-sidebar"
         options: ["left-sidebar", "right-sidebar", "no-sidebar"]
-      - {label: Icon, name: icon, widget: string,  default: fa-leaf, pattern: ["^fa\\-", "Must be fa-<something>. See https://faicons.com/"], required:True }
       - label: Sidebar Sections
         name: sidebar_sections
         widget: list
