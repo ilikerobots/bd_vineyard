@@ -23,15 +23,15 @@ callout_cta_link: harvest.html
 callout_img_1: /images/DSC00622.JPG
 callout_img_2: /images/2011-09-04 08.56.44.jpg
 row_sections:
-  - description: This is the first section.
-    icon: fa-clock-o
-    title: This is the first title.
-  - description: This is the **second** section.
-    icon: fa-laptop
-    title: This is the second title.
-  - description: |
-      This is a long section with multiple paragraphs.
-    icon: fa-cog
+  #- description: This is the first section.
+    #icon: fa-clock-o
+    #title: This is the first title.
+  #- description: This is the **second** section.
+    #icon: fa-laptop
+    #title: This is the second title.
+  #- description: |
+      #This is a long section with multiple paragraphs.
+    #icon: fa-cog
 grid_intro: 'We grow two varieties, both **superb**.'
 grid_cta: About our Grape Vines
 grid_link: grapes.html
