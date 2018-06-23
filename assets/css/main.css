@@ -1312,8 +1312,8 @@ header.special {
     max-width: 100%; }
   header.special img.logo {
     position: relative;
-    height: 80px;
-    top: -100px; }
+    height: 140px;
+    top: -180px; }
 
 footer > :last-child {
   margin-bottom: 0; }
@@ -1918,7 +1918,11 @@ body.index #main {
   /* Section/Article */
   header.special {
     padding-top: 5.5em;
-    margin-bottom: 4em; } }
+    margin-bottom: 4em; }
+    header.special img.logo {
+      position: relative;
+      height: 100px;
+      top: -120px; } }
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */

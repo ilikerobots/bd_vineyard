@@ -54,8 +54,6 @@ maincta_btn_secondary_link: location.html
 
 ## Now it's **your turn to harvest**.
 
-Since 2005, we have tended to our two acres of grape vines with responsible stewardship of plants, crops, and land.  Our grapes have gone into a number of interesting and innovative vintages.
-
-And while we will continue to sell most of our harvest to commercial wineries, we now invite all our wine-making friends to participate in this unique experience.  
+Since 2005, we have tended to our two acres of grape vines with responsible stewardship of plants, crops, and land.  Our grapes have gone into a number of interesting and innovative vintages. And while we will continue to sell most of our harvest to commercial wineries, we now **invite all our wine-making friends to participate in this unique experience**.  
 
 Best of all, you can buy what you pick for as little as one dollar per pound, and turn your efforts into a bottle of wine you'll remember forever.

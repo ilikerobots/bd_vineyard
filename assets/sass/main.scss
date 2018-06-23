@@ -214,8 +214,8 @@
 
 			img.logo {
 				position: relative;
-				height: 80px;
-				top: -100px;
+				height: 140px;
+				top: -180px;
 			}
 
 		}
@@ -994,6 +994,12 @@
 				&.special {
 					padding-top: 5.5em;
 					margin-bottom: 4em;
+
+					img.logo {
+						position: relative;
+						height: 100px;
+						top: -120px;
+				    }
 				}
 			}
 
