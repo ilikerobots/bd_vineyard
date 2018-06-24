@@ -1315,6 +1315,14 @@ header.special {
     height: 140px;
     top: -180px; }
 
+.status-box {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important; }
+  .status-box .status-details {
+    font-weight: bold; }
+  .status-box .status-date {
+    font-style: italic; }
+
 footer > :last-child {
   margin-bottom: 0; }
 footer.major {

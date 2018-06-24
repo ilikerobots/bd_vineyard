@@ -221,6 +221,18 @@
 		}
 	}
 
+	.status-box {
+		padding-top: 1em !important;
+		padding-bottom: 1em !important;
+
+		.status-details {
+			font-weight: bold;
+		}
+		.status-date {
+			font-style: italic;
+		}
+	}
+
 	footer {
 		> :last-child {
 			margin-bottom: 0;

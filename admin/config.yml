@@ -89,8 +89,25 @@ collections:
         - {label: CTA, name: cta, widget: string}
         - {label: Link, name: link, widget: string}
       - {label: Include In Nav, name: include_in_nav, widget: hidden, default: True}
-  - label: "Blogs" # Used in the UI
-    label_singular: "Blog" # Used in the UI, ie: "New Post"
+  - label: "News and Updates Main Page" # Used in the UI
+    name: "status" # Used in routes, e.g., /admin/collections/blog
+    files:
+    - label: "Brix and PH Update"
+      name: "status_update"
+      file: "blog.md"
+      create: false # Allow users to create new documents in this collection
+      slug: "blog" # Filename template, e.g., YYYY-MM-DD-title.md
+      displayFields: ["status-update", "status-date"]
+      fields: # The fields for each document, usually in front matter
+        - {label: "Title", name: "title", widget: "hidden", default: "Blog"}
+        - {label: "layout", name: "layout", widget: "hidden", default: "blog"}
+        - {label: "Header", name: "header", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Update Text", name: "status_update", widget: "string"}
+        - {label: "Update Date", name: "status_date", widget: "date"}
+        - {label: "Body", name: "body", widget: "hidden", default: ""}
+  - label: "News and Updates Posts" # Used in the UI
+    label_singular: "Post" # Used in the UI, ie: "New Post"
     name: "blog" # Used in routes, e.g., /admin/collections/blog
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -104,4 +121,3 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-
