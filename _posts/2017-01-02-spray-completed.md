@@ -1,6 +1,6 @@
 ---
 layout: no-sidebar
-title: Spraying completed
+title: Lorem
 header: Spraying completed
 description: 'Preparations continue, spring is underway'
 date: 2017-01-02T20:50:00.000Z
