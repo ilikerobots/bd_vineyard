@@ -1,7 +1,7 @@
 ---
 layout: no-sidebar
 title: Lorem
-header: Spraying completed
+header: Lorem Ipsum
 description: 'Preparations continue, spring is underway'
 date: 2017-01-02T20:50:00.000Z
 ---
