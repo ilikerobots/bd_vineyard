@@ -1,10 +1,9 @@
 ---
-title: Harvest update, ready to pick soon
 layout: no-sidebar
-icon: fa-leaf
-header: Harvest update, ready to pick soon
-description: The grapes are developing nicely.
-date:   2016-09-14  20:50:00
+title: Mea minus fidum
+header: Mea minus fidum
+description: To be written.
+date: 2016-09-14T20:50:00.000Z
 ---
 
 # Tua errat agresti genu mira
